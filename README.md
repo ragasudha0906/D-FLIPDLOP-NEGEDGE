@@ -1,5 +1,3 @@
-# D-FLIPDLOP-NEGEDGE
-
 **AIM:**
 
 To implement  D flipflop using verilog and validating their functionality using their functional tables
@@ -29,16 +27,35 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 **Procedure**
 
 /* write all the steps invloved */
+1.Open quartus II and create New project wizard. 2. Write the program in Verilog HDL file and run
+the program. 3. Download the RTL viewer 4. Now open university program VWF and download
+waveform after the execution.
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by:Ragasudha R 
+RegisterNumber:24900684
+```
+exp_8(D,clk,Q,Qbar); 
+input D,clk; 
+output reg Q; 
+output reg Qbar; 
+initial Q=0; 
+initial Qbar=1; 
+always@(posedge clk) begin Q=D; 
+Qbar=~D; 
+end endmodule
+```
 */
 
 **RTL LOGIC FOR FLIPFLOPS**
 
+![WhatsApp Image 2024-12-01 at 19 44 07_d461b372](https://github.com/user-attachments/assets/cd6aa5ed-dae4-460f-b4e6-f069518fec36)
+
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
+![WhatsApp Image 2024-12-01 at 19 50 42_4705b4bd](https://github.com/user-attachments/assets/a58db40f-3b69-44dc-92ec-94e369a5116d)
 
 **RESULTS**
+Thus the D flip flop is executed in Quartus and output is verified.
