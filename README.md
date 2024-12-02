@@ -1,3 +1,5 @@
+# D-FLIPFLOP-NEGEDGE
+
 **AIM:**
 
 To implement  D flipflop using verilog and validating their functionality using their functional tables
