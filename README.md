@@ -34,7 +34,7 @@ waveform after the execution.
 **PROGRAM**
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by:Ragasudha R 
-RegisterNumber:24900684
+RegisterNumber:24900684*/
 ```
 exp_8(D,clk,Q,Qbar); 
 input D,clk; 
@@ -46,7 +46,7 @@ always@(posedge clk) begin Q=D;
 Qbar=~D; 
 end endmodule
 ```
-*/
+
 
 **RTL LOGIC FOR FLIPFLOPS**
 
